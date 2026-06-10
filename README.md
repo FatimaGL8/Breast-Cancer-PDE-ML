@@ -1,4 +1,4 @@
-### 🔬📊 Resultados y análisis de simulaciones del cáncer de mama 🎗️
+## 🔬📊 Resultados y análisis de simulaciones del cáncer de mama 🎗️
 
 El modelo completo considerado viene dado por el siguiente sistema de ecuaciones en derivadas parciales (EDP):
 
