@@ -1,6 +1,7 @@
 # breast-cancer-pde-ml
 ### Resultados y análisis de simulaciones del cáncer de mama
-El modelo completo considerado viene dado por el siguiente sistema de ecuaciones en derivadas parciales:
+
+El modelo completo considerado viene dado por el siguiente sistema de ecuaciones en derivadas parciales (EDP):
 
 $$
 \left\{
@@ -18,6 +19,8 @@ a\, c \ln\left(\frac{K}{c}\right) - \gamma c \beta
 \right.
 $$
 
+### Condiciones de Contorno e Iniciales
+
 $$
 \begin{aligned}
 \frac{\partial c}{\partial n} = 0,
@@ -32,13 +35,16 @@ c(x,0)=c_0(x),
 \end{aligned}
 $$
 
-donde:
-- $c(x,t)$ representa la densidad de células tumorales,
-- $\beta(x,t)$ corresponde a la concentración del fármaco,
-- $D(x)$ es el coeficiente de difusión celular,
-- $a$ es la tasa de proliferación tumoral,
-- $K$ es la capacidad de carga,
-- $\gamma$ mide la eficacia del tratamiento,
-- $\mu$ representa la difusión del medicamento,
-- $\delta$ modela la degradación del fármaco,
-- y $u(t)$ describe la administración externa de quimioterapia.
+### Descripción de Variables y Parámetros
+
+| Símbolo | Descripción |
+| :---: | :--- |
+| $c(x,t)$ | Densidad de células tumorales |
+| $\beta(x,t)$ | Concentración del fármaco |
+| $D(x)$ | Coeficiente de difusión celular (espacialmente dependiente) |
+| $a$ | Tasa de proliferación tumoral |
+| $K$ | Capacidad de carga del tejido (crecimiento Gompertziano) |
+| $\gamma$ | Eficacia del tratamiento (tasa de muerte celular por fármaco) |
+| $\mu$ | Coeficiente de difusión del medicamento |
+| $\delta$ | Tasa de degradación/eliminación del fármaco |
+| $u(t)$ | Dosificación o administración externa de quimioterapia |
