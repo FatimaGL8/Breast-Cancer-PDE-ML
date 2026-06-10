@@ -6,7 +6,7 @@ El objetivo principal consiste en analizar el comportamiento dinámico del siste
 
 ---
 
-### 📐 Marco Matemático: Modelo Completo (EDP)
+### 📐 Modelo Matemático Completo (EDP)
 
 El modelo completo considerado viene dado por el siguiente sistema de ecuaciones en derivadas parciales (EDP):
 
