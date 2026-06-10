@@ -5,7 +5,7 @@ El modelo completo considerado viene dado por el siguiente sistema de ecuaciones
 
 $$
 \begin{cases}
-\partial_t c - \nabla \cdot (D(x)\nabla c) = a\, c \ln\left(\frac{K}{c}\right) - \gamma c \beta & \text{en } Q, \\[1ex]
+\partial_t c - \nabla \cdot (D(x)\nabla c) = a c \ln\left(\frac{K}{c}\right) - \gamma c \beta & \text{en } Q, \\
 \partial_t \beta - \mu \Delta \beta = -\delta \beta + u(t) & \text{en } Q.
 \end{cases}
 $$
@@ -14,7 +14,7 @@ $$
 
 $$
 \begin{aligned}
-\frac{\partial c}{\partial n} = 0, \quad \frac{\partial \beta}{\partial n} = 0 & \quad \text{en } \partial\Omega \times (0,T), \\[1ex]
+\frac{\partial c}{\partial n} = 0, \quad \frac{\partial \beta}{\partial n} = 0 & \quad \text{en } \partial\Omega \times (0,T), \\
 c(x,0)=c_0(x), \quad \beta(x,0)=\beta_0(x) & \quad \text{en } \Omega.
 \end{aligned}
 $$
