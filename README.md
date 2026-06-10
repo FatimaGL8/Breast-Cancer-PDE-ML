@@ -1,5 +1,4 @@
-# breast-cancer-pde-ml
-### Resultados y análisis de simulaciones del cáncer de mama
+### 🔬📊 Resultados y análisis de simulaciones del cáncer de mama 🎗️
 
 El modelo completo considerado viene dado por el siguiente sistema de ecuaciones en derivadas parciales (EDP):
 
@@ -10,7 +9,7 @@ $$
 \end{cases}
 $$
 
-### Condiciones de Contorno e Iniciales
+#### Condiciones de Contorno e Iniciales
 
 $$
 \begin{aligned}
@@ -19,7 +18,7 @@ c(x,0)=c_0(x), \quad \beta(x,0)=\beta_0(x) & \quad \text{en } \Omega.
 \end{aligned}
 $$
 
-### Descripción de Variables y Parámetros
+#### Descripción de Variables y Parámetros
 
 - $c(x,t)$ representa la densidad de células tumorales,
 - $\beta(x,t)$ corresponde a la concentración del fármaco,
