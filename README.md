@@ -1,6 +1,6 @@
 ## 🔬📊 Resultados y análisis de simulaciones del cáncer de mama 🎗️
 
-En este repositorio se presentan los principales resultados obtenidos a partir de la implementación computacional del modelo matemático desarrollado para la simulación del crecimiento del cáncer de mama. 
+En este repositorio se presentan los principales resultados obtenidos a partir de la implementación computacional del modelo matemático desarrollado para la simulación del crecimiento del cáncer de mama.
 
 El objetivo principal consiste en analizar el comportamiento dinámico del sistema bajo distintos escenarios terapéuticos, estudiar la influencia de los parámetros biológicos y evaluar la capacidad descriptiva del modelo desde un punto de vista matemático, numérico y computacional.
 
