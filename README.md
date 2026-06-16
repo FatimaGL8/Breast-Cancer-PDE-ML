@@ -81,7 +81,7 @@ Las simulaciones realizadas permiten estudiar la evolución espacio-temporal de 
 <br>
 
 Estudio de la evolución espacio-temporal de la densidad tumoral en su escenario basal (historia natural de la enfermedad). Valida la consistencia biológica del crecimiento Gompertziano y la difusión libre bajo condiciones de contorno de Neumann homogéneas antes de aplicar perturbaciones terapéuticas.
-* 📝 **Notebook de desarrollo:** [`Sin_tratamiento.ipynb`](./Sin_tratamiento.ipynb)
+* 📝 **Notebook desarrollado:** [`Sin_tratamiento.ipynb`](./Sin_tratamiento.ipynb)
 </details>
 
 <details>
@@ -90,8 +90,8 @@ Estudio de la evolución espacio-temporal de la densidad tumoral en su escenario
 
 Modelado acoplado de la interacción dinámica entre el transporte difusivo del agente quimioterapéutico, su aclaramiento metabólico y la inhibición celular citotóxica.
 * *Sub-análisis:* **Modelo simplificado con concentración constante de fármaco** (análisis comparativo que demuestra el impacto de los tiempos de latencia y difusión frente a una perfusión idealizada).
-*  📝 **Notebooks de desarrollo:** * Modelo Acoplado Completo: [`Tratamiento_continuo.ipynb`](./Tratamiento_continuo.ipynb)
- * Modelo Simplificado ($C = cte$): [`Tratamiento_constante.ipynb`](./Tratamiento_constante.ipynb)
+*  📝 **Notebooks desarrollados:** * Modelo Acoplado Completo: [`Tratamiento_continuo.ipynb`](./Tratamiento_continuo.ipynb
+*   * Modelo Simplificado ($C = cte$): [`Tratamiento_constante.ipynb`](./Tratamiento_constante.ipynb)
 </details>
 
 <details>
@@ -99,7 +99,7 @@ Modelado acoplado de la interacción dinámica entre el transporte difusivo del 
 <br>
 
 Evaluación dosis-respuesta mediante el análisis de sensibilidad discreto de la carga farmacológica. Identifica los diferentes regímenes dinámicos del sistema (crecimiento, estabilización crónica y regresión parcial) y valida matemáticamente la ley de los rendimientos marginales decrecientes a través del índice de eficacia relativa $E(\beta)$.
-* 📝 **Notebook de desarrollo:** [`Influencia_beta.ipynb`](./Influencia_beta.ipynb)
+* 📝 **Notebook desarrollado:** [`Influencia_beta.ipynb`](./Influencia_beta.ipynb)
 </details>
 
 <details>
@@ -107,7 +107,7 @@ Evaluación dosis-respuesta mediante el análisis de sensibilidad discreto de la
 <br>
 
 Estudio multivariante del impacto marginal de las fluctuaciones en los parámetros biológicos críticos ($a$, $K$ y $\gamma$) sobre la masa tumoral integrada a largo plazo, garantizando la robustez estructural, la estabilidad y la alta capacidad descriptiva del modelo matemático de reacción-difusión.
-* 📝 **Notebook de desarrollo:** [`Analisis_sensibilidad.ipynb`](./Analisis_sensibilidad.ipynb)
+* 📝 **Notebook desarrollado:** [`Analisis_sensibilidad.ipynb`](./Analisis_sensibilidad.ipynb)
 </details>
 
 <details>
@@ -115,7 +115,7 @@ Estudio multivariante del impacto marginal de las fluctuaciones en los parámetr
 <br>
 
 Resolución del problema inverso no lineal mediante el acoplamiento de una FNN morfológica y una red neuronal informada por la física (PINN). El modelo se nutre del [Wisconsin Breast Cancer Dataset (Descargar archivo .zip)](./data/breast+cancer+wisconsin+diagnostic.zip) para extraer las variables geométricas macroscópicas de los pacientes. A partir de estos flujos y de datos espacio-temporales con ruido, el framework filtra las perturbaciones estocásticas y reconstruye los campos continuos de densidad celular, identificando con alta precisión matemática los parámetros biomédicos latentes de forma estrictamente personalizada.
-* 📝 **Notebook de desarrollo:** [`Red_Neuronal_Generacion.ipynb`](./Red_Neuronal_Generacion.ipynb)
+* 📝 **Notebook desarrollado:** [`Red_Neuronal_Generacion.ipynb`](./Red_Neuronal_Generacion.ipynb)
 </details>
 
 ---
