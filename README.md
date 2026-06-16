@@ -130,7 +130,11 @@ Resolución del problema inverso no lineal mediante el acoplamiento de una FNN m
 ---
 
 ## 📚 Bibliografía (Evolución del Proyecto)
-o Guijarro-López, F. (2025). *Neural-Network-Based-Solutions-to-Differential-Equations*. [Enlace](https://github.com/FatimaGL8/Neural-Network-Based-Solutions-to-Differential-Equations). GitHub.
+o Guijarro-López, F. (2025). *Neural-Network-Based-Solutions-to-Differential-Equations*. [Enlace](https://github.com/FatimaGL8/Neural-Network-Based-Solutions-to-Differential-Equations). Repositorio en GitHub.
+
+o Thaleo. [zhezter]. (2025). *CancerGrowthSimulations*. [Enlace](https://github.com/zhezter/CancerGrowthSimulations). Repositorio en GitHub.
+
+o isaiquezadas1-afk. (2025). *SimulacionCrecimientoTumoral*. [Enlace](https://github.com/isaiquezadas1-afk/SimulacionCrecimientoTumoral). Repositorio en GitHub.
 
 o Fife, P. C. (1979). *Reaction-Diffusion Equations and Their Applications to Biology*. Springer.
 
