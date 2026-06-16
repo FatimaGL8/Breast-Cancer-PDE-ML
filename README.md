@@ -47,13 +47,13 @@ $$
 
 Las simulaciones realizadas permiten estudiar la evolución espacio-temporal de la densidad tumoral, la propagación del agente quimioterapéutico y la interacción entre proliferación celular, difusión e inhibición terapéutica a través de los siguientes bloques:
 
-| Bloque de Simulación | Enfoque Principal | Estado / Estatus |
-| :--- | :--- | :---: |
-| **01. Control y Validación** | Evolución tumoral basal (sin tratamiento quimioterapéutico). | 🟩 Completado |
-| **02. Terapia Continua** | Simulación del Modelo Completo vs. Modelo Simplificado ($C = cte$). | 🟩 Completado |
-| **03. Optimización de Dosis** | Análisis del impacto de la intensidad terapéutica en la regresión. | 🟩 Completado |
-| **04. Robustez del Modelo** | Análisis de sensibilidad paramétrica global. | 🟩 Completado |
-| **05. IA y Parámetros** | Estimación avanzada mediante Redes Neuronales y PINNs. | 🚀 Destacado |
+| Bloque de Simulación | Enfoque Principal |
+| :--- | :--- |
+| **01. Control y Validación** | Evolución tumoral basal (sin tratamiento quimioterapéutico). | 
+| **02. Terapia Continua** | Simulación del Modelo Completo vs. Modelo Simplificado (Concentración constante $\beta_0$). | 
+| **03. Optimización de Dosis** | Análisis del impacto de la intensidad terapéutica en la regresión tumoral. |
+| **04. Robustez del Modelo** | Análisis de sensibilidad paramétrica multivariante (parámetros $a$, $K$ y $\gamma$). | 
+| **05. IA y Parámetros** | Estimación avanzada de parámetros biomédicos latentes mediante Redes Neuronales *Feedforward* (FNN) y PINNs. | 
 
 ---
 
