@@ -92,6 +92,5 @@ Estudio multivariante del impacto marginal de las fluctuaciones en los parámetr
 <summary><b>💡 5. Estimación de parámetros mediante redes neuronales y PINNs</b></summary>
 <br>
 
-Resolución del problema inverso no lineal mediante el acoplamiento de una FNN morfológica (entrenada con el *Wisconsin Breast Cancer Dataset*) y una red neuronal informada por la física (PINN). Reconstruye campos continuos de densidad celular filtrando perturbaciones estocásticas e identifica con alta precisión matemática los parámetros biomédicos latentes de un paciente.
-</details>
+Resolución del problema inverso no lineal mediante el acoplamiento de una FNN morfológica y una red neuronal informada por la física (PINN). El modelo se nutre del [Wisconsin Breast Cancer Dataset (Descargar archivo .zip)](./data/breast+cancer+wisconsin+diagnostic.zip) para extraer las variables geométricas macroscópicas de los pacientes. A partir de estos flujos y de datos espacio-temporales con ruido, el framework filtra las perturbaciones estocásticas y reconstruye los campos continuos de densidad celular, identificando con alta precisión matemática los parámetros biomédicos latentes de forma estrictamente personalizada.
 </details>
