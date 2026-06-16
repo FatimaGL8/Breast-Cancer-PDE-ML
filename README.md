@@ -90,8 +90,8 @@ Estudio de la evolución espacio-temporal de la densidad tumoral en su escenario
 
 Modelado acoplado de la interacción dinámica entre el transporte difusivo del agente quimioterapéutico, su aclaramiento metabólico y la inhibición celular citotóxica.
 * *Sub-análisis:* **Modelo simplificado con concentración constante de fármaco** (análisis comparativo que demuestra el impacto de los tiempos de latencia y difusión frente a una perfusión idealizada).
-*  📝 **Notebooks desarrollados:** * Modelo Acoplado Completo: [`Tratamiento_continuo.ipynb`](./Tratamiento_continuo.ipynb
-*   * Modelo Simplificado ($C = cte$): [`Tratamiento_constante.ipynb`](./Tratamiento_constante.ipynb)
+*  📝 **Notebooks desarrollados:** * Modelo Acoplado Completo: [`Tratamiento_continuo.ipynb`](./Tratamiento_continuo.ipynb)
+                                    * Modelo Simplificado ($C = cte$): [`Tratamiento_constante.ipynb`](./Tratamiento_constante.ipynb)
 </details>
 
 <details>
