@@ -63,34 +63,35 @@ Las simulaciones realizadas permiten estudiar la evolución espacio-temporal de 
 <summary><b>🔹 1. Validación numérica del modelo y evolución tumoral sin tratamiento</b></summary>
 <br>
 
-Estudio de la evolución espacio-temporal de la densidad tumoral de forma basal. Permite identificar la tasa de proliferación natural y los patrones de difusión libre del tejido tumoral antes de aplicar perturbaciones externas.
+Estudio de la evolución espacio-temporal de la densidad tumoral en su escenario basal (historia natural de la enfermedad). Valida la consistencia biológica del crecimiento Gompertziano y la difusión libre bajo condiciones de contorno de Neumann homogéneas antes de aplicar perturbaciones terapéuticas.
 </details>
 
 <details>
 <summary><b>🔹 2. Simulación con tratamiento quimioterapéutico continuo: Modelo Completo</b></summary>
 <br>
 
-Modelado de la interacción dinámica entre la propagación del agente quimioterapéutico y la inhibición celular.
-* *Sub-análisis:* **Modelo simplificado con concentración constante de fármaco** (análisis comparativo de coste computacional y precisión).
+Modelado acoplado de la interacción dinámica entre el transporte difusivo del agente quimioterapéutico, su aclaramiento metabólico y la inhibición celular citotóxica.
+* *Sub-análisis:* **Modelo simplificado con concentración constante de fármaco** (análisis comparativo que demuestra el impacto de los tiempos de latencia y difusión frente a una perfusión idealizada).
 </details>
 
 <details>
 <summary><b>🔹 3. Influencia de la intensidad terapéutica</b></summary>
 <br>
 
-Asimismo, los experimentos numéricos permiten identificar distintos regímenes dinámicos del sistema, incluyendo crecimiento tumoral, estabilización y procesos de regresión parcial inducidos por el tratamiento a través de la variación de la dosis.
+Evaluación dosis-respuesta mediante el análisis de sensibilidad discreto de la carga farmacológica. Identifica los diferentes regímenes dinámicos del sistema (crecimiento, estabilización crónica y regresión parcial) y valida matemáticamente la ley de los rendimientos marginales decrecientes a través del índice de eficacia relativa $E(\beta)$.
 </details>
 
 <details>
 <summary><b>🔹 4. Análisis de sensibilidad paramétrica</b></summary>
 <br>
 
-Estudio del impacto de las fluctuaciones en los parámetros biológicos sobre las soluciones numéricas, garantizando la robustez y la capacidad descriptiva del modelo de reacción-difusión para reproducir dinámicas coherentes con la oncología matemática clásica.
+Estudio multivariante del impacto marginal de las fluctuaciones en los parámetros biológicos críticos ($a$, $K$ y $\gamma$) sobre la masa tumoral integrada a largo plazo, garantizando la robustez estructural, la estabilidad y la alta capacidad descriptiva del modelo matemático de reacción-difusión.
 </details>
 
 <details>
 <summary><b>💡 5. Estimación de parámetros mediante redes neuronales y PINNs</b></summary>
 <br>
 
-Uso de técnicas de aprendizaje profundo e *Physics-Informed Neural Networks* (PINNs) para la resolución de problemas inversos. Permite validar cualitativamente el comportamiento del modelo, ajustando y estimando los parámetros biológicos críticos a partir de datos simulados.
+Resolución del problema inverso no lineal mediante el acoplamiento de una FNN morfológica (entrenada con el *Wisconsin Breast Cancer Dataset*) y una red neuronal informada por la física (PINN). Reconstruye campos continuos de densidad celular filtrando perturbaciones estocásticas e identifica con alta precisión matemática los parámetros biomédicos latentes de un paciente.
+</details>
 </details>
