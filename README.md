@@ -139,4 +139,4 @@ o TensorFlow documentation. [*TENSORFLOW*.](https://www.tensorflow.org/)
 
 o NumPy documentation. [*NUMPY*.](https://numpy.org/)
 
-o **UCI Machine Learning Repository (2024).** *Breast Cancer Wisconsin (Diagnostic) Data Set*. [Enlace al dataset de la UCI](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic).
+o UCI Machine Learning Repository (2024). *Breast Cancer Wisconsin (Diagnostic) Data Set*. [Enlace al dataset de la UCI](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic).
