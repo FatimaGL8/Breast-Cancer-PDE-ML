@@ -123,8 +123,12 @@ Resolución del problema inverso no lineal mediante el acoplamiento de una FNN m
 ---
 
 ## 📚 Bibliografía (Evolución del Proyecto)
-* Guijarro-López, F. (2025). *Neural-Network-Based-Solutions-to-Differential-Equations*. [Enlace](https://github.com/FatimaGL8/Neural-Network-Based-Solutions-to-Differential-Equations). GitHub.
-* Fife, P. C. (1979). *Reaction-Diffusion Equations and Their Applications to Biology*. Springer.
-* LeVeque, R. J. (2007). *Finite Difference Methods for Ordinary and Partial Differential Equations*. SIAM.
-* M. Scikit-learn, NumPy, PyTorch and TensorFlow Documentations.
+o Guijarro-López, F. (2025). *Neural-Network-Based-Solutions-to-Differential-Equations*. [Enlace](https://github.com/FatimaGL8/Neural-Network-Based-Solutions-to-Differential-Equations). GitHub.
+o Fife, P. C. (1979). *Reaction-Diffusion Equations and Their Applications to Biology*. Springer.
+o LeVeque, R. J. (2007). *Finite Difference Methods for Ordinary and Partial Differential Equations*. SIAM.
+o Strauss. W. A. (2007) *Partial Differential Equations: An Introduction*. Wiley, (edition 2).
+o Python Software Foundation. [*PYTHON*.](https://www.python.org/)
+o PyTorch documentation. [*PYTORCH*.](https://pytorch.org/)
+o TensorFlow documentation. [*TENSORFLOW*.](https://www.tensorflow.org/)
+o NumPy documentation. [*NUMPY*.](https://numpy.org/)
 * **UCI Machine Learning Repository (2024).** *Breast Cancer Wisconsin (Diagnostic) Data Set*. [Enlace al dataset de la UCI](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic).
